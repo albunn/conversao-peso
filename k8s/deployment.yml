@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: web-peso
-          #image: alexandrebunn/controle-peso:v1
-          image: kubedevio/controle-peso:latest
+          image: alexandrebunn/conversao-peso:v1
           ports:
             - containerPort: 8080
 ---
